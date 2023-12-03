@@ -1,0 +1,173 @@
+/* .text {
+    color: #ff0000;
+    font-family: system-ui;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
+}
+
+.footer {
+    bottom: 5%;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.rotate {
+    transform: rotate(-5deg);
+}
+
+#sticker {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+.splash_poster{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    max-height: 500px;
+    border-radius: 5px;
+}
+.title-text{
+    color:black;
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", "Roboto", "Ubuntu", "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  background-color: #000;
+}
+input:active {
+  outline: none;
+  border: none;
+}
+input:focus{
+  outline: 1px solid grey;
+}
+.App {
+  max-width: 500px;
+  background-color: #fff;
+}
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.container-1 > img {
+  max-width: 85px;
+}
+.container-1 > span {
+  margin: -15px 0 5px 0;
+  font-size: 17px;
+}
+.container-1 > a {
+  font-size: 21px;
+  font-weight: 600;
+  max-width: 60%;
+  text-align: center;
+  color: black;
+}
+.container-1 > button {
+  font-size: 23px;
+  font-weight: 800;
+  margin-top: 18px;
+  padding: 15px 50px;
+  background-color: #1b1b1b;
+  color: #fff;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.container-2 {
+  background-color: #fff;
+  position: relative;
+}
+
+/* .embeded{
+  width: auto;
+} */
+
+.lottie-container {
+  position: absolute;
+  top: 30%;
+}
+
+.SaveUserCredentials_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.SaveUserCredentials_form > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.SaveUserCredentials_form > form > .button_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SaveUserCredentials_form > form > .button_container > button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SaveUserCredentials_form > form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.error_message {
+  color: red;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+@media (max-width: 320px) {
+  .container-1 > img {
+    max-width: 55px;
+  }
+  .container-1 > a {
+    max-width: 100%;
+  }
+  .container-1 > button {
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 18px;
+    padding: 15px 40px;
+    background-color: #1b1b1b;
+    color: #fff;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+}

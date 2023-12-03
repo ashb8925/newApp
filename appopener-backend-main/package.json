@@ -1,0 +1,42 @@
+{
+  "name": "app-opener-api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "app.js",
+  "description": "AppOpener API",
+  "author": "opnr.app",
+  "engines": {
+    "node": "16.10.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "debug": "^2.2.0",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-useragent": "^1.0.15",
+    "firebase-admin": "^11.3.0",
+    "google-auth-library": "^7.14.1",
+    "google-id-token-verifier": "^0.2.3",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.3.4",
+    "nanoid-dictionary": "^4.3.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pug": "^3.0.2",
+    "react-scripts": "^5.0.1",
+    "redis": "^3.1.2",
+    "serve-favicon": "^2.5.0",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.6.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
